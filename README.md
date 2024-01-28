@@ -1,8 +1,38 @@
-# React + Vite
+# Toggle Feature In React.js
+This project is built on `JavaScript`, `Tailwind CSS` and `React.js` .It is useful for enabling the dark and light mode feature in the React created card.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Install Vite :-
+```
+npm latest@vite
+```
+## NPM Json Package Install :-
+```
+npm install
+```
+## Tailwind Install Link :-
+```
+npm install -D tailwindcss
+npx tailwindcss init
+```
+## Tailwind Configure your template paths :-
+```
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  darkMode:"class",
+  plugins: [],
+}
+```
+## Add the Tailwind directives to your CSS :-
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+## Install React-Redux :-
+```
+npm i react-redux
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
